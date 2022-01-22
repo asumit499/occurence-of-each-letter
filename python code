@@ -1,0 +1,12 @@
+string = input("Enter string:")
+hell = ""
+i = 0
+while i<len(string):
+    
+    if string[i] in hell:
+        pass
+    else:
+        n = string.count(string[i])
+        print(f"{string[i]} occurs :{n} times")
+        hell += string[i]
+    i+=1
